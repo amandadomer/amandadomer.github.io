@@ -10,39 +10,59 @@
     <title>Amanda Domer Portfolio</title>
 </head>
 <body>
-    <nav><a href="#top">home </a>  | <a href="#about">about</a> |  <a href="#skills">skills</a>  |  <a href="#projects">projects</a>  |  <a href="#contact">contact</a></nav>
+    <nav><img src="leaf.png" class="img-small">&nbsp;&nbsp;&nbsp;<a href="#top">home </a>  | <a href="#about">about</a> |  <a href="#skills">skills</a>  |  <a href="#projects">projects</a>  |  <a href="#contact">contact</a></nav>
     
     <div class="bluebox"> <header>Hi,<br>I'm Amanda
     <span class="subhead">and I build things.</span></header></div>
 
-    <div class="rectanglebox" id="about">
-
-    <h3 class="white">About me</h3><br>
-    <h4 class="white">I'm a web developer based in Milwaukee, WI.</h4>
-    <img src="me.jpg" alt="Me"> 
+    <div class="about" id="about">  </div>
+      <h3>About</h3>
+    <div class="rectanglebox">
+      <div class="row">
+        <div class="col-md-8">
+          <h4 class="white">I'm a web developer based in Milwaukee, WI. I'm a web developer based in Milwaukee, WI. I'm a web developer based in Milwaukee, WI. I'm a web developer based in Milwaukee, WI.</h4>
+        </div>
+        <div class="col-md-4">
+          <img src="me.jpg" alt="Me"> 
+        </div>
+        </div>
+      </div>
+    </div>
     </div>
 
     
-    <div class="greenbox" id="skills">
-    <h3 class="white">Skills<br></h3><h4 class="white">JavaScript<br>HTML<br>CSS<br>Node.js</h4>
+    <div class="skills" id="skills"></div>
+    <h3 class>Skills<br></h3>
+      <div class="greenbox">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h4 class="white">JavaScript<br>HTML<br>CSS<br>Node.js</h4>
+            </div>
+            <div class="col-md-6">
+              <h4 class="white">Bootstrap<br>Photoshop<br>Illustrator</h4>
+            </div>
+          </div>
+        </div>
     </div> 
-    <div class="projects" id="projects">    </div>
+
+    <div class="projects" id="projects">  </div>
 
     <div>
     <h3>Projects</h3><br>
     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false" >
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <div class="card mb-3" style="max-width: 800px;">
+            <div class="card mb-3" style="max-width: 750px;">
                 <div class="row g-0">
                   <div class="col-md-6">
-                    <img src="rpsls.png" class="img-fluid rounded-start" alt="Rock Paper Scissors Lizard Spock">
+                    <img src="roadtrip.png" class="img-fluid rounded-start" alt="Road Trip Generator">
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
-                      <p class="card-title">Rock Paper Scissors Lizard Spock</p>
-                      <p class="card-text">This is the description for RPSLS</p>
-                      <p class="card-text"><a href="https://github.com/javidVeg/RPSLSPROJECT">View on GitHub</a></p>
+                      <p class="card-title">Road Trip Generator</p>
+                      <p class="card-text">A random road trip generator that gives user the option to load a new trip until they are happy with the result.<br>Technologies: JavaScript, HTML, CSS</p>
+                      <p class="card-text"><a href="https://github.com/amandadomer/day-trip-generator">View on GitHub</a></p>
                     </div>
                   </div>
                 </div>
@@ -52,13 +72,12 @@
             <div class="card mb-3" style="max-width: 750px;">
                 <div class="row g-0">
                   <div class="col-md-6">
-                    <img src="roadtrip.png" class="img-fluid rounded-start" alt="Road Trip Generator">
-                  </div>
+                    <img src="rpsls.png" class="img-fluid rounded-start" alt="Rock Paper Scissors Lizard Spock" >                  </div>
                   <div class="col-md-6">
                     <div class="card-body">
-                      <p class="card-title">Road Trip Generator</p>
-                      <p class="card-text">This is the description for Road Trip Generator</p>
-                      <p class="card-text"><a href="https://github.com/amandadomer/day-trip-generator">View on GitHub</a></p>
+                      <p class="card-title">Rock Paper Scissors Lizard Spock</p>
+                      <p class="card-text">A rock, paper, scissors type game using OOP and Node. User has the option to play against an AI or another person.<br>Technologies: JavaScript, Node.js</p>
+                      <p class="card-text"><a href="https://github.com/javidVeg/RPSLSPROJECT">View on GitHub</a></p>
                     </div>
                   </div>
                 </div>
@@ -68,12 +87,12 @@
             <div class="card mb-3" style="max-width: 750px;">
                 <div class="row g-0">
                   <div class="col-md-6">
-                    <img src="wanted.jpg" class="img-fluid rounded-start" alt="Most Wanted Project">
+                    <img src="wanted.jpeg" class="img-fluid rounded-start" alt="Most Wanted Project">
                   </div>
                   <div class="col-md-6">
                     <div class="card-body">
                       <p class="card-title">Most Wanted Project</p>
-                      <p class="card-text">A prototype of a person search using a most wanted database.<br>Technologies: JavaScript, HTML</p>
+                      <p class="card-text">A prototype of a person search using a most wanted database. Allows users to search by name, trait, and display related data.<br>Technologies: JavaScript, HTML</p>
                       <p class="card-text"><a href="https://github.com/amandadomer/most-wanted">View on GitHub</a></p>
                     </div>
                   </div>
@@ -107,7 +126,7 @@
 </div>
 
     <div class="contact" id="contact">
-    <h5>Contact me<br><br></h5>
+    <h3>Contact me<br><br></h3>
       <h4 class="link"><a href="mailto:amandamdomer@gmail.com">Email Me</a>  <a href="https://www.linkedin.com/in/amandadomer/">LinkedIn</a> <a href="https://github.com/amandadomer">GitHub</a></h4></div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
